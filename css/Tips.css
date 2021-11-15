@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0); 
+}
+
+
+/* Icono responsive menu */
+
+#icon-menu{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    font-size: 35px;
+    background-color: #8000ff00;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #ffffff;
+    display: none;
+
+}
+
+#icon-menu:hover{
+    background: rgba(255, 255, 255, 0);
+    border-color: #ffffff;
+    opacity: 0.6;
+}
+
+
+/* Navbar */
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 66px;
+    background-color: #faaf0000;
+    border-bottom: 2px solid #ffffff00;
+    z-index: 2;
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+
+.logo h1 {
+    color: #ffffff;
+}
+
+.list-contenedor {
+    height: 65px;
+}
+
+.list-contenedor nav{
+    height: 100%;
+}
+
+.list-contenedor nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+
+.list-contenedor nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.list-contenedor {
+    height: 65px;
+}
+
+.list-contenedor nav{
+    height: 100%;
+}
+
+.list-contenedor nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+
+.list-contenedor nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.list-contenedor li a{
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    transition: 0.3s;
+    padding:8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+
+}
+
+.list-contenedor li a:hover, a:focus {
+    color:rgb(255, 255, 255);
+    background-size: 100% 2px;
+}
+
+
+.list-contenedor li a:hover, a:focus {
+    color:rgb(255, 255, 255);
+    background-size: 100% 2px;
+}
+
+
+/*Portada*/
+
+#particles-js{
+    margin-top: -30px;
+    height: calc(100vh - 70);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  
+}
+
+.portada{
+    width: 100%;
+    height: 660px;
+    top: 0px;
+    position: relative;
+    background-image: url(../img/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.portada:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 9, 0.911);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contenedor-head{
+    display: flex;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    z-index: 1;
+    position: relative;
+    background: rgba(153, 64, 64, 0);
+    
+}
+
+.tips-portada{
+    background-color: rgba(179, 255, 0, 0);
+}
+
+.contenedor-head h1{
+    font-size: 100px;
+    font-weight: 900;
+    width: 500px;
+    color: #fff;
+    margin-top: 100px;
+    background: rgba(24, 247, 255, 0);
+
+}
+
+
+.contenedor-head p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: rgba(148, 94, 94, 0);
+}
+
+.contenedor-head img{
+    width: 400px;
+    margin-top: 150px;
+    background-color: rgba(255, 0, 255, 0);
+    margin-right: 20px;
+   
+    
+}
+
+.img{
+    
+    animation: signopregunta ease-in 1s infinite alternate;
+    
+    }
+    
+    @keyframes signopregunta{
+        0%{
+            transform: scale(1);
+        }100%{
+            transform: scale(1.04);
+        }
+}
+
+#boton{
+    width: 40px;
+    height: 40px;
+    right: 630px;
+    top: 400px;
+    font-size: 95px;
+    background-color: #8000ff00;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #ffffff00;
+    position: absolute;
+
+
+}
+
+/* Categorias */
+
+.todo{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgba(218, 45, 45, 0);
+    height: 900px;
+}
+
+.titulo-preguntas{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    margin: 60px;
+}
+
+.categorias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin-bottom: 60px;
+
+}
+
+.categoria{
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(71,86,117);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border: 2px solid transparent;
+    transition: .3s ease all;
+    
+}
+
+.categoria:hover{
+    box-shadow: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+} 
+
+.categoria:hover path{
+    fill: rgb(255, 255, 255);
+    
+}
+
+.categoria svg{
+    width: 64px;
+    margin-bottom: 10px;
+}
+
+.categoria.activa{
+    border: 4px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.categoria.activa path{
+    fill: white;
+
+}
+
+.categoria p{
+    font-size: 20px;
+    font-weight: 30;
+}
+
+.contenedor-preguntas{
+    display: none;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+
+.contenedor-pregunta{
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .3s ease all ;
+    cursor: pointer;
+
+}
+
+.contenedor-preguntas.activo{
+    display: grid;
+
+}
+
+.contenedor-pregunta:hover{
+    border: 4px solid rgb(71,86,117);
+    
+
+}
+
+.pregunta{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(71,86,117);
+
+}
+
+.pregunta img{
+    width: 50px;
+}
+
+.respuesta{
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    max-height: 0;
+    opacity: 0;
+    transition: .3s ease all ;
+
+}
+
+.contenedor-pregunta.activa  .respuesta{
+    opacity: 1;
+    margin-top: 20px;
+
+}
+
+.contenedor-pregunta.activa img{
+    transform: rotate(45deg);
+    
+
+
+}
+
+/* Footer */
+
+footer{
+    background: #ee6d6d00;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(../img/Fondo3.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.contact-us{
+    width: 40%;
+    color: rgb(255, 255, 255);
+}
+
+.brand{
+    font-weight: 600;
+    font-size: 40px;
+    background-color: #00ffff00;
+    margin-left: 10%;
+
+}
+
+.brand+p{
+    font-weight: 500;
+    background-color: #fc121200;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(245, 126, 219, 0);
+    margin-right: 40px;
+    
+
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000000f3;
+    border-radius: 50%;
+    text-align: center;
+    color: rgba(245, 42, 42, 0);
+    background-color: #000000;
+
+}
+
+.social-media-icon:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid #000000f3;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+    background-color: #25dfdf00;
+    color: rgb(255, 251, 251);
+
+}
+
+.social-media-icon i:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
